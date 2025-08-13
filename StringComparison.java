@@ -1,9 +1,7 @@
-package oops;
+package Pakage;
 
 public class StringComparison {
-
-
-    public static void main(String[] args) {
+	public static void main(String[] args) {
         String a = "Java";
         String b = "java";
         System.out.println(a.equals(b));             
@@ -11,5 +9,3 @@ public class StringComparison {
         System.out.println(a.compareTo(b));          
     }
 }
-
-

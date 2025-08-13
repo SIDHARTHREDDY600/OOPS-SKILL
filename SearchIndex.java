@@ -1,13 +1,13 @@
-package oops;
+package opp;
 
-public class SearchIndex {
-
-
-    public static void main(String[] args) {
-        String s = "Hello world";
-        System.out.println(s.indexOf(""));        // 2
-        System.out.println(s.lastIndexOf("na"));    // 4
-        System.out.println(s.contains("nan"));      // true
-    }
+public class SearchIndex
+{
+ public static void main(String[] args) {
+ String s = "Hello_world";
+        System.out.println(s.indexOf("_"));        
+        System.out.println(s.lastIndexOf("or"));    
+        System.out.println(s.contains("ll"));      
+    
+        
+ }
 }
-

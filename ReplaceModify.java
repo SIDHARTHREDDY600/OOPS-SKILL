@@ -1,9 +1,7 @@
-package oops;
+package Pakage;
 
 public class ReplaceModify {
-
-
-    public static void main(String[] args) {
+	public static void main(String[] args) {
         String s = "ababab";
         System.out.println(s.replace('a', 'x'));         
         System.out.println(s.replace("ab", "xy"));     
@@ -11,4 +9,3 @@ public class ReplaceModify {
         System.out.println(s.replaceFirst("ab", "xy")); 
     }
 }
-
